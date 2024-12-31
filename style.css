@@ -1,0 +1,350 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.sitelogo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav>ul>li>a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.searchicon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactus {
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+.otherservices {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    border-radius: 20px;
+    margin: 20px;
+    height: 10%;
+}
+
+.banner .left {
+    flex: 1;
+    padding: 20px;
+}
+.banner .left .getquote{
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-top: 30px;
+    position: relative;
+    right: 30px;
+}
+
+.banner .left input{
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.banner .left .secondline{
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+.banner .left .line{
+    font-size: 1.5em;
+}
+.banner .left h1 {
+    font-size: 3.5em;
+    margin-top: 30px;
+}
+
+.banner .right img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Second Banner */
+.secondbanner {
+    text-align: center;
+    padding: 20px;
+}
+
+.secondbanner p,
+.secondbanner h2 {
+    font-family: sans-serif;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content > div {
+    flex: 1 1 calc(33% - 20px);
+    text-align: center;
+}
+
+.content img {
+    width: 100px;
+    height: auto;
+}
+
+/* Projects Section */
+.thirdbanner{
+    margin-left: 10px;
+
+}
+.secondpara{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.secondheading{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.projects img {
+    flex: 1 1 calc(33% - 20px);
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* Fourth Banner */
+.fourthbanner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.secondleft >.buttons{
+    margin-top: 30px;
+}
+.secondleft >.buttons> .secondbutton{
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.secondleft >.buttons> .firstbutton{
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.headings{
+    display: flex;
+    gap: 15%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.data{
+    display: flex;
+    
+    gap: 8%;
+    margin-top: -30px;
+}
+.secondleft {
+    flex: 1;
+    padding: 20px;
+}
+.secondleft p{
+    font-size: 1.5em;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.secondleft h2 {
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+.secondright img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fifth Banner */
+.fifthbanner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    border-radius: 20px;
+    margin: 20px auto;
+}
+.fifthbanner .thirdleft .getquote{
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-top: 30px;
+    position: relative;
+    right: 30px;
+}
+.fifthbanner .thirdleft input{
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.fifthbanner .thirdleft .second{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.fifthbanner .thirdleft .firs{
+    font-size: 3.5em;
+    font-family: sans-serif;
+}
+.fifthbanner .thirdleft {
+    flex: 1;
+    padding: 20px;
+}
+
+.fifthbanner .thirdright img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .nav ul {
+        gap: 10px;
+    }
+
+    .button {
+        gap: 5px;
+    }
+
+    .content > div {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content > div {
+        flex: 1 1 100%;
+    }
+
+    .projects img {
+        flex: 1 1 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    .banner .left h1 {
+        font-size: 1.5em;
+    }
+
+    .projects img {
+        flex: 1 1 100%;
+    }
+
+    .fourthbanner {
+        flex-direction: column;
+    }
+
+    .fifthbanner {
+        flex-direction: column;
+    }
+}

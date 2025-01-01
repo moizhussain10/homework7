@@ -171,9 +171,10 @@
 }
 
 .projects img {
-    flex: 1 1 calc(33% - 20px);
-    max-width: 100%;
-    border-radius: 10px;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 /* Fourth Banner */
 .fourthbanner {
@@ -299,7 +300,12 @@
         flex-direction: column;
         gap: 10px;
     }
-
+    .getquote{
+        display: none;
+    }
+    .searchicon{
+        display: none;
+    }
     .nav {
         flex-direction: column;
     }
@@ -326,6 +332,10 @@
     .nav ul {
         flex-direction: column;
         align-items: center;
+    }
+
+    .searchicon{
+        display: none;
     }
 
     .button {

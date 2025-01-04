@@ -78,7 +78,7 @@
     background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
     border-radius: 20px;
     margin: 20px;
-    height: 10%;
+    height: 100vh;
 }
 
 .banner .left {
@@ -278,6 +278,9 @@
 .fifthbanner .thirdright img {
     max-width: 100%;
     height: auto;
+}
+.thirdheading{
+    font-family: sans-serif;
 }
 
 /* Media Queries for Responsiveness */

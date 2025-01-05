@@ -84,6 +84,7 @@
 .banner .left {
     flex: 1;
     padding: 20px;
+    font-family: sans-serif;
 }
 .banner .left .getquote{
     color: white;
@@ -94,6 +95,7 @@
     margin-top: 30px;
     position: relative;
     right: 30px;
+    text-decoration: none;
 }
 
 .banner .left input{
@@ -117,7 +119,6 @@
     max-width: 100%;
     height: auto;
 }
-
 /* Second Banner */
 .secondbanner {
     text-align: center;
@@ -255,11 +256,14 @@
     margin-top: 30px;
     position: relative;
     right: 30px;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 .fifthbanner .thirdleft input{
     padding: 5px 20px;
     border-radius: 50px;
     margin-top: 30px;
+    font-family: sans-serif;
 }
 .fifthbanner .thirdleft .second{
     font-size: 1.5em;
@@ -343,6 +347,14 @@
 
     .button {
         flex-direction: column;
+    }
+
+    .banner .right img{
+       height: 100%;
+    }
+
+    .banner{
+        height: 50%;
     }
 
     .banner .left h1 {
